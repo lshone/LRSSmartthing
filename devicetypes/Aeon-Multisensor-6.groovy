@@ -9,13 +9,11 @@
  *  Unless required by applicable law or agreed to in writing, software distributed under the License is distributed
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
- *  Change log	
- *  | 02-12-2018  | lshone  | - Used the temp tile instead of the motion sensor for the things list and the default tile in the device view	
- *                            - set run locally to false	
- **/
+ *
+ */
 
 metadata {
-	definition (name: "lrs Aeon Multisensor 6", namespace: "smartthings", author: "SmartThings", runLocally: false, minHubCoreVersion: '000.020.00008', executeCommandsLocally: true) {
+	definition (name: "lrs Aeon Multisensor 6 Modified", namespace: "smartthings", author: "SmartThings", runLocally: false, minHubCoreVersion: '000.020.00008', executeCommandsLocally: true) {
 		capability "Motion Sensor"
 		capability "Temperature Measurement"
 		capability "Relative Humidity Measurement"
